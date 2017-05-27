@@ -8,22 +8,67 @@
 
 /* Begin PBXBuildFile section */
 		C7246D411ED90C8C0099D2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7246D401ED90C8C0099D2E6 /* AppDelegate.swift */; };
-		C7246D431ED90C8C0099D2E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7246D421ED90C8C0099D2E6 /* ViewController.swift */; };
 		C7246D461ED90C8C0099D2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7246D441ED90C8C0099D2E6 /* Main.storyboard */; };
 		C7246D491ED90C8C0099D2E6 /* Sentapce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7246D471ED90C8C0099D2E6 /* Sentapce.xcdatamodeld */; };
 		C7246D4B1ED90C8C0099D2E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7246D4A1ED90C8C0099D2E6 /* Assets.xcassets */; };
 		C7246D4E1ED90C8C0099D2E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7246D4C1ED90C8C0099D2E6 /* LaunchScreen.storyboard */; };
+		C7246D561ED914C40099D2E6 /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7246D551ED914C40099D2E6 /* BooksTableViewController.swift */; };
+		C743AC051EDA504600848690 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C743AC041EDA504600848690 /* Objects.swift */; };
+		C743AC091EDA5AD400848690 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC081EDA5AD400848690 /* SwiftyJSON.framework */; };
+		C743AC0B1EDA5AD800848690 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC081EDA5AD400848690 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C743AC0C1EDA5AD800848690 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC061EDA5AD200848690 /* AlamofireObjectMapper.framework */; };
+		C743AC0D1EDA5AD800848690 /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC061EDA5AD200848690 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C743AC121EDA5BF200848690 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC101EDA5BF200848690 /* ObjectMapper.framework */; };
+		C743AC131EDA5BF600848690 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC0F1EDA5BF200848690 /* Alamofire.framework */; };
+		C743AC141EDA5BF600848690 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC0F1EDA5BF200848690 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C743AC161EDA5BF600848690 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C743AC101EDA5BF200848690 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C743AC181EDA633D00848690 /* LecturesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C743AC171EDA633D00848690 /* LecturesTableViewController.swift */; };
+		C743AC1A1EDA634800848690 /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C743AC191EDA634800848690 /* QuestionsTableViewController.swift */; };
+		C743AC1C1EDA73D300848690 /* CompositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C743AC1B1EDA73D300848690 /* CompositionViewController.swift */; };
+		C743AC241EDAE43F00848690 /* SentenceCompositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C743AC231EDAE43F00848690 /* SentenceCompositionCell.swift */; };
+		C76164A01EE2A7A300590F99 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C761649F1EE2A7A300590F99 /* Extensions.swift */; };
+		C76164A21EE2A7DA00590F99 /* STColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76164A11EE2A7DA00590F99 /* STColors.swift */; };
+		C76164A61EE3FD6A00590F99 /* STWordpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76164A51EE3FD6A00590F99 /* STWordpad.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C743AC0E1EDA5AD800848690 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C743AC0B1EDA5AD800848690 /* SwiftyJSON.framework in Embed Frameworks */,
+				C743AC141EDA5BF600848690 /* Alamofire.framework in Embed Frameworks */,
+				C743AC161EDA5BF600848690 /* ObjectMapper.framework in Embed Frameworks */,
+				C743AC0D1EDA5AD800848690 /* AlamofireObjectMapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C7246D3D1ED90C8C0099D2E6 /* Sentapce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sentapce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7246D401ED90C8C0099D2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7246D421ED90C8C0099D2E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7246D451ED90C8C0099D2E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7246D481ED90C8C0099D2E6 /* Sentapce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sentapce.xcdatamodel; sourceTree = "<group>"; };
 		C7246D4A1ED90C8C0099D2E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7246D4D1ED90C8C0099D2E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7246D4F1ED90C8C0099D2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7246D551ED914C40099D2E6 /* BooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksTableViewController.swift; path = Controllers/BooksTableViewController.swift; sourceTree = "<group>"; };
+		C743AC041EDA504600848690 /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Objects.swift; path = Models/Objects.swift; sourceTree = "<group>"; };
+		C743AC061EDA5AD200848690 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		C743AC081EDA5AD400848690 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		C743AC0F1EDA5BF200848690 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C743AC101EDA5BF200848690 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		C743AC171EDA633D00848690 /* LecturesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LecturesTableViewController.swift; path = Controllers/LecturesTableViewController.swift; sourceTree = "<group>"; };
+		C743AC191EDA634800848690 /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionsTableViewController.swift; path = Controllers/QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		C743AC1B1EDA73D300848690 /* CompositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompositionViewController.swift; path = Controllers/CompositionViewController.swift; sourceTree = "<group>"; };
+		C743AC231EDAE43F00848690 /* SentenceCompositionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SentenceCompositionCell.swift; path = Views/SentenceCompositionCell.swift; sourceTree = "<group>"; };
+		C761649F1EE2A7A300590F99 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Views/Extensions.swift; sourceTree = "<group>"; };
+		C76164A11EE2A7DA00590F99 /* STColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STColors.swift; path = Models/STColors.swift; sourceTree = "<group>"; };
+		C76164A51EE3FD6A00590F99 /* STWordpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = STWordpad.swift; path = Views/STWordpad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C743AC131EDA5BF600848690 /* Alamofire.framework in Frameworks */,
+				C743AC121EDA5BF200848690 /* ObjectMapper.framework in Frameworks */,
+				C743AC0C1EDA5AD800848690 /* AlamofireObjectMapper.framework in Frameworks */,
+				C743AC091EDA5AD400848690 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +91,7 @@
 			children = (
 				C7246D3F1ED90C8C0099D2E6 /* Sentapce */,
 				C7246D3E1ED90C8C0099D2E6 /* Products */,
+				C7715A401ED961EA0085E706 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				C7246D401ED90C8C0099D2E6 /* AppDelegate.swift */,
-				C7246D421ED90C8C0099D2E6 /* ViewController.swift */,
+				C743AC031EDA502C00848690 /* Models */,
+				C7BD07471ED9B63B007A995E /* Controllers */,
+				C743AC1E1EDAC52F00848690 /* Views */,
 				C7246D441ED90C8C0099D2E6 /* Main.storyboard */,
 				C7246D4A1ED90C8C0099D2E6 /* Assets.xcassets */,
 				C7246D4C1ED90C8C0099D2E6 /* LaunchScreen.storyboard */,
@@ -65,6 +117,55 @@
 				C7246D471ED90C8C0099D2E6 /* Sentapce.xcdatamodeld */,
 			);
 			path = Sentapce;
+			sourceTree = "<group>";
+		};
+		C743AC031EDA502C00848690 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C743AC041EDA504600848690 /* Objects.swift */,
+				C76164A11EE2A7DA00590F99 /* STColors.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C743AC1D1EDA746D00848690 /* Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7246D551ED914C40099D2E6 /* BooksTableViewController.swift */,
+				C743AC171EDA633D00848690 /* LecturesTableViewController.swift */,
+				C743AC191EDA634800848690 /* QuestionsTableViewController.swift */,
+			);
+			name = "Table View Controllers";
+			sourceTree = "<group>";
+		};
+		C743AC1E1EDAC52F00848690 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C761649F1EE2A7A300590F99 /* Extensions.swift */,
+				C743AC231EDAE43F00848690 /* SentenceCompositionCell.swift */,
+				C76164A51EE3FD6A00590F99 /* STWordpad.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C7715A401ED961EA0085E706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C743AC0F1EDA5BF200848690 /* Alamofire.framework */,
+				C743AC101EDA5BF200848690 /* ObjectMapper.framework */,
+				C743AC061EDA5AD200848690 /* AlamofireObjectMapper.framework */,
+				C743AC081EDA5AD400848690 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7BD07471ED9B63B007A995E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C743AC1D1EDA746D00848690 /* Table View Controllers */,
+				C743AC1B1EDA73D300848690 /* CompositionViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +178,8 @@
 				C7246D391ED90C8C0099D2E6 /* Sources */,
 				C7246D3A1ED90C8C0099D2E6 /* Frameworks */,
 				C7246D3B1ED90C8C0099D2E6 /* Resources */,
+				C7715A491ED962110085E706 /* ShellScript */,
+				C743AC0E1EDA5AD800848690 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,7 +202,7 @@
 				TargetAttributes = {
 					C7246D3C1ED90C8C0099D2E6 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 6A7LS2BPS4;
+						DevelopmentTeam = 2765226H97;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,13 +238,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C7715A491ED962110085E706 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7246D391ED90C8C0099D2E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7246D431ED90C8C0099D2E6 /* ViewController.swift in Sources */,
+				C7246D561ED914C40099D2E6 /* BooksTableViewController.swift in Sources */,
+				C743AC241EDAE43F00848690 /* SentenceCompositionCell.swift in Sources */,
+				C76164A21EE2A7DA00590F99 /* STColors.swift in Sources */,
+				C743AC1A1EDA634800848690 /* QuestionsTableViewController.swift in Sources */,
+				C743AC051EDA504600848690 /* Objects.swift in Sources */,
+				C76164A01EE2A7A300590F99 /* Extensions.swift in Sources */,
+				C743AC181EDA633D00848690 /* LecturesTableViewController.swift in Sources */,
+				C743AC1C1EDA73D300848690 /* CompositionViewController.swift in Sources */,
 				C7246D411ED90C8C0099D2E6 /* AppDelegate.swift in Sources */,
+				C76164A61EE3FD6A00590F99 /* STWordpad.swift in Sources */,
 				C7246D491ED90C8C0099D2E6 /* Sentapce.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +396,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6A7LS2BPS4;
+				DEVELOPMENT_TEAM = 2765226H97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sentapce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stleam.Sentapce;
@@ -280,7 +413,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6A7LS2BPS4;
+				DEVELOPMENT_TEAM = 2765226H97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sentapce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stleam.Sentapce;
@@ -308,6 +445,7 @@
 				C7246D541ED90C8C0099D2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

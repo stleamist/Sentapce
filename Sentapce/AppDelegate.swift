@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Sentapce
-//
-//  Created by 김동규 on 2017. 5. 27..
-//  Copyright © 2017년 Stleam. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
